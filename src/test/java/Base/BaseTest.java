@@ -43,10 +43,9 @@ public class BaseTest {
     public void jsClick(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
     }
-/*
+
     @AfterClass
     public void tearDown() {
         driver.quit();
     }
- */
 }
