@@ -19,8 +19,6 @@ public class SidebarPage {
         return driver.findElements(By.className("text"));
     }
 
-    //------------------------
-
     public void clickOnButton(String buttonName) {
         for (int i = 0; i < getButton().size(); i++) {
             if (getButton().get(i).getText().equals(buttonName)) {
